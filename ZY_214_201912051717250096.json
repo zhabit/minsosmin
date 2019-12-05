@@ -1,0 +1,155 @@
+{
+  "isaHeader" : {
+    "authorizationInformationQualifier" : "00",
+    "authorizationInformation" : "          ",
+    "securityInformationQualifier" : "00",
+    "securityInformation" : "          ",
+    "interchangeIdQualifier0" : "ZY",
+    "interchangeSenderId" : "ZJZY           ",
+    "interchangeIdQualifier1" : "ZZ",
+    "interchangeReceiverId" : "UNISH3C.NDMS   ",
+    "interchangeDate" : "191205",
+    "interchangeTime" : "1717",
+    "interchangeControlStandardsIdentifier" : "U",
+    "interchangeControlVersionNumber" : "00401",
+    "interchangeControlNumber" : "000054943",
+    "acknowledgmentRequested" : "0",
+    "usageIndicator" : "P",
+    "componentElementSeparator" : "@"
+  },
+  "functionGroupHeader" : {
+    "functionalIdentifierCode" : "QM",
+    "applicationSenderCode" : "ZJZY",
+    "applicationReceiverCode" : "UNISH3C.NDMS",
+    "date" : "20191205",
+    "time" : "1717",
+    "groupControlNumber" : "1",
+    "responsibleAgencyCode" : "X",
+    "version" : "004010"
+  },
+  "transactionSet" : [ {
+    "transactionSetHeader" : {
+      "transactionSetIdentifierCode" : "214",
+      "transactionSetControlNumber" : "54943"
+    },
+    "beginningSegmentTransportationCarrierShipmentStatusMessage" : {
+      "referenceIdentification" : "LA48473869099",
+      "shipmentIdentificationNumber" : "19041500501",
+      "standardCarrierAlphaCode" : "ZJZY"
+    },
+    "businessInstructionAndReferenceNumber" : [ {
+      "referenceIdentification" : "DN123456789",
+      "referenceIdentificationQualifier" : "SI",
+      "description" : null
+    } ],
+    "remarks" : [ {
+      "freeFormMessage1" : null,
+      "freeFormMessage2" : null
+    } ],
+    "loop0100" : [ {
+      "name" : {
+        "entityIdentifierCode" : "SF",
+        "name" : "HEWLETT PACKARD",
+        "identificationCodeQualifier" : null,
+        "identificationCode" : null
+      },
+      "addressInformation" : [ {
+        "addressInformation1" : "杭州",
+        "addressInformation2" : "浙江"
+      } ],
+      "geographicLocation" : {
+        "cityName" : "杭州",
+        "stateCode" : "浙江",
+        "postalCode" : "330100",
+        "countryCode" : "中国",
+        "locationQualifier" : null,
+        "locationIdentifier" : null
+      },
+      "pertinentDateTime" : {
+        "dateQualifier" : "88",
+        "date" : "20191204",
+        "timeQualifer" : "W",
+        "time" : "1717",
+        "timeCode" : "08"
+      }
+    }, {
+      "name" : {
+        "entityIdentifierCode" : "ST",
+        "name" : "重庆新科佳都科技有限公司",
+        "identificationCodeQualifier" : null,
+        "identificationCode" : null
+      },
+      "addressInformation" : [ {
+        "addressInformation1" : "贵州省贵阳市南明区新华路富中国际广场10楼E座||",
+        "addressInformation2" : null
+      } ],
+      "geographicLocation" : {
+        "cityName" : "贵阳",
+        "stateCode" : "贵州",
+        "postalCode" : "520100",
+        "countryCode" : "中国",
+        "locationQualifier" : null,
+        "locationIdentifier" : null
+      },
+      "pertinentDateTime" : {
+        "dateQualifier" : "09",
+        "date" : "191204",
+        "timeQualifer" : "W",
+        "time" : "1717",
+        "timeCode" : "08"
+      }
+    } ],
+    "interlineInformation" : [ {
+      "standardCarrierAlphaCode" : "ZJZY",
+      "routingSequenceCode" : "O",
+      "ms303" : null,
+      "transportationMethod" : "J"
+    } ],
+    "loop0200" : [ {
+      "assignedNumber" : {
+        "assignedNumber" : "1"
+      },
+      "loop0205" : {
+        "shipmentStatusDetails" : {
+          "shipmentStatusCode" : "X6",
+          "shipmentStatusOrAppointmentReasonCode" : "NS",
+          "at703" : null,
+          "at704" : null,
+          "date" : "20191205",
+          "time" : "1717",
+          "timeCode" : "08"
+        },
+        "equipmentShipmentRealPropertyLocation" : {
+          "cityName" : "贵阳",
+          "state" : "贵州",
+          "countryCode" : "中国",
+          "longitudeCode" : null,
+          "latitudeCode" : null
+        }
+      },
+      "businessInstructionAndReferenceNumber" : [ ],
+      "shipmentWeightPackagingAndQuantityData" : [ {
+        "weightQualifier" : "G",
+        "weightUnitCode" : "K",
+        "weight" : "20.00",
+        "ladingQuantity" : "1",
+        "volumeUnitQualifier" : null,
+        "volume" : null
+      } ],
+      "loop0210" : [ ],
+      "loop0230" : [ ]
+    } ],
+    "transactionSetTrailer" : {
+      "numberOfTransactionIncludedSegments" : "17",
+      "transactionSetControlNumber" : "54943"
+    }
+  } ],
+  "functionGroupTrailer" : {
+    "numberOfTransactionSetsIncluded" : "1",
+    "groupControlNumber" : "1"
+  },
+  "isaFooter" : {
+    "numberOfIncludedFunctionalGroups" : "1",
+    "interchangeControlNumber" : "000054943"
+  }
+}
